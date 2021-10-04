@@ -1,0 +1,11 @@
+.footers{
+    background-color: black;
+    color: rgb(209, 209, 209);
+}
+.footers a {
+  text-decoration: none;
+  color: rgb(214, 214, 214);;
+}
+.footers li {
+    list-style: none;
+}
