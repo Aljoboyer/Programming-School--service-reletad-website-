@@ -6,7 +6,7 @@ const Services = () => {
     const [courses] = CoursesShowing()
     return (
         <div className="container-fluid ">
-            <div className="row gy-4 mt-4 mb-4 ms-4 mx-auto">
+            <div className="row gap-4 mt-4 mb-4">
                 {
                     courses.map(course => <Allcourses
                          key={Math.random()}

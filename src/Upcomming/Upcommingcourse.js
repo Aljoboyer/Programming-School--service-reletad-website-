@@ -6,7 +6,7 @@ const Upcommingcourse = () => {
     console.log(upcomingcourse)
     return (
         <div className="container-fluid">
-            <div className="row g-4 mt-4 mx-auto mb-4">
+            <div className="row gap-4 mt-4 mb-4">
                 {
                     upcomingcourse.map(course => <Upcomingcourses key={Math.random()}
                     course={course}

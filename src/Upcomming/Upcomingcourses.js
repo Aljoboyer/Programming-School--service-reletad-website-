@@ -3,14 +3,24 @@ import React from 'react';
 const Upcomingcourses = (props) => {
     const {name, price,img,duration,description} = props.course
     return (
-        <div className="col-lg-4 ms-4 col-md-6 col-sm-12 courses">
-            <img height="200px" width="200" className="rounded ms-4 mt-4" src={img} alt="" />
+        <div class="card-container courses col-lg-4 col-md-6 col-sm-12">
+        <div class="card "><div className="courses details" href="hottub">
+            <div class="card--display">
+                <img width="150px" height="150px" src={img} alt="" />
             <h3>{name}</h3>
-            <h3>{price}</h3>
+            <h4>$ {price}</h4>
             <p><b>{duration}</b></p>
-            <small>{description}</small>
+            </div>
+            <div class="card--hover ">
+            <br />
+            <small className="sml" >{description}</small>
+            </div>
         </div>
+        <div class="card--border"></div>
+        </div>
+</div>
     );
 };
 
 export default Upcomingcourses;
+

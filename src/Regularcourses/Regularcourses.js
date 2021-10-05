@@ -7,12 +7,13 @@ const Regularcourses = () => {
     const newcourse = courses.splice(5,14)
     return (
         <div className="container-fluid">
-            <div className="row g-4 ms-4 mx-auto">
+            <div className="mx-auto row gap-4">
                 {
                     courses.map(course => <Course key={Math.random()} courses={course} ></Course>)
                 }
             </div>
         </div>
+
     );
 };
 

@@ -3,12 +3,15 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
+    height: 32rem;
 }
 .row-container{
-    background-color: rgba(0, 0, 0, 0.405);
+    background-color: rgba(0, 0, 0, 0.487);
 }
 .button1{
-    height: 50px;
+    height: 60px;
+    width: 150px;
     background-color: #fdd342;
     color: black;
     font-weight: bold;
@@ -17,7 +20,8 @@
     border-bottom-right-radius: 30px;
 }
 .button2{
-    height: 50px;
+    height: 60px;
+    width: 150px;
     background-color: #92918e;
     color: #000000;
     font-weight: bold;
