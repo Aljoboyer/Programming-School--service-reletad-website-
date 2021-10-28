@@ -22,7 +22,7 @@
   text-decoration: none;
   color: black;
   display: block;
-  transition: 0.25s ease;
+  transition: 1s ease;
 }
 .card-container .card .details:hover {
   transform: translate(-30px, -30px);
