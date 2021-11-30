@@ -1,6 +1,6 @@
 # Programming School
 
-This project was bootstrapped with [Programming School](https://online-programming-school.netlify.app/).
+This project was bootstrapped with [Programming School](https://programming-school-19206.web.app/).
 
 =>In this website we are teaching programming through online..Its easy to learn by sitting home
 
